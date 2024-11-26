@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    height: 100vh;
+    background-color: #eee;
+    gap: 30px;
+  }
+  
+  .text {
+    width: 25%;
+  }
+  h1{
+    color: blue;
+    font-size: 50px;
+  }
+  
+  .form {
+    border: 2px black;
+    background-color: white;
+    width: 30%;
+    padding: 2%;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    color: blue;
+    padding: 7px;
+  }
+  
+  .login {
+    display: block;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 7px;
+  }
+  
+  a {
+    color: blue;
+    display: block;
+    text-align: center;
+    margin-bottom: 12px;
+    text-decoration: none;
+  }
+  
+  hr {
+    margin-bottom: 12px;
+  }
+  
+  button {
+    color: white;
+    width: 50%;
+    margin: 0px auto;
+    display: block;
+    background-color: green;
+    border-radius: 5px;
+    padding: 7px;
+  }
+  
+  
